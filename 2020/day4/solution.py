@@ -12,7 +12,7 @@ fields = {
 
 
 passports = []
-with open('input.txt', 'r') as f:
+with open('input.txt', 'r', encoding='utf-8') as f:
     passports = f.read().split('\n\n')
 
 f.close()
