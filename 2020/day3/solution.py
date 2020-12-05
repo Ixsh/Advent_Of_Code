@@ -6,7 +6,7 @@ slopes = [(1,1),(3,1),(5,1),(7,1),(1,2)]
 #slopes = [(3,1)]
 
 lines = []
-with open('C:/Users/durha/Desktop/trees.txt', 'r', encoding='utf-8') as f:
+with open('input.txt', 'r', encoding='utf-8') as f:
     trees = f.read().splitlines()
 
 f.close()
