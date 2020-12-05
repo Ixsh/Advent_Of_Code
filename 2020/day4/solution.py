@@ -12,7 +12,7 @@ fields = {
 
 
 passports = []
-with open('C:/Users/durha/Desktop/passports.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     passports = f.read().split('\n\n')
 
 f.close()
