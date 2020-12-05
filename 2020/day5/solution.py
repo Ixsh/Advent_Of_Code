@@ -34,5 +34,5 @@ def find_seat_ID(boardingPasses, op = 'max'):
     return seatIDs
 
 
-#print(find_seat_ID(arr, 'max'))
+#print(find_seat_ID(arr))
 print(find_seat_ID(arr, 'missing'))
