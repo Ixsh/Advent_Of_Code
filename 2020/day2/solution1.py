@@ -1,4 +1,4 @@
-with open('C:/Users/durha/Desktop/input.txt', 'r', encoding='utf-8') as f:
+with open('input.txt', 'r', encoding='utf-8') as f:
   arr = f.read().splitlines()
 
 f.close()
